@@ -100,7 +100,7 @@ const PRandomCache = (props) => {
     ),
     H(
       "p",
-      'To obtain the set to replace, the low bits of the LFSR are used if the number of ways is a power of 2. Otherwise a "partition" function is used to sample from a roughly uniform distribution (see ',
+      'To obtain the way to replace, the low bits of the LFSR are used if the number of ways is a power of 2. Otherwise a "partition" function is used to sample from a roughly uniform distribution (see ',
       h(
         "a",
         {
