@@ -469,7 +469,7 @@ const PTreePseudoLruCache = (props) => {
     ),
     H(
       "p",
-      'In the Chisel source, higher-numbered sets are considered to be to the "left". Here they are to the right',
+      'In the Chisel source, higher-numbered ways are considered to be to the "left". Here they are to the right',
     ),
   );
 };
