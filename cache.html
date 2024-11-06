@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>cache demo</title>
+    <script type="module" src="js/cache.js"></script>
+    <style>
+td {
+  min-width: 4em;
+}
+    </style>
+  </head>
+  <body>
+    <h1>Cache Replacement Policy Interactive Demo</h1>
+    <p>More or less based on the <a href="https://github.com/chipsalliance/rocket-chip/blob/1b9f43352c7fd6e4e81cb244b422f6c605ffd3df/src/main/scala/util/Replacement.scala">implementations in the Rocket Chip Generator repository</a>
+    <p>The way that will be used on the next insert/replace is <span style="background-color: #fc0">highlighted in yellow </span></a>
+    <p>Tags here simply show the order in which each way was inserted. In a real processor they would contain bits of the address</a>
+    <div id="demo">This interactive demo requires JavaScript to run</div>
+    <h2>Source Code</h2>
+    <p>Check out the source code at <a href="https://github.com/sporeventexplosion/31c0c3">https://github.com/sporeventexplosion/31c0c3</a> (it's a mess, thrown together in a hurry)</p>
+  </body>
+</html>
